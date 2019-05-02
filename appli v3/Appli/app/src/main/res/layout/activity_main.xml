@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_centerInParent="true"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="8dp">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        style="@style/HeaderBar"
+        app:popupTheme="@style/Base.Widget.AppCompat.Light.ActionBar.TabText.Inverse"
+        android:elevation="4dp"/>
+
+    <Button
+        android:id="@+id/button_entrainements"
+        android:layout_width="216dp"
+        android:layout_height="165dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/entrainement"
+        android:text="@string/entrainement"
+        android:textColor="@color/colorText"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_nutrition"
+        android:layout_width="216dp"
+        android:layout_height="165dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/nutrition"
+        android:text="@string/nutrition"
+        android:textColor="@color/colorText"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_statistiques"
+        android:layout_width="216dp"
+        android:layout_height="165dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/statistiques"
+        android:text="@string/statistiques"
+        android:textColor="@color/colorText"
+        android:textStyle="bold" />
+</LinearLayout>

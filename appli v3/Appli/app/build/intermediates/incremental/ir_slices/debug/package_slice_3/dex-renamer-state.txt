@@ -1,0 +1,4 @@
+#Tue Apr 02 18:38:37 CEST 2019
+base.0=H\:\\appli v1\\Appli\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\3
+path.0=classes.dex
+renamed.0=classes.dex

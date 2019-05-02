@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/btnSkip"
+        android:icon="@drawable/ic_skip_next_black_24dp"
+        android:title="Skip"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/btnClose"
+        android:icon="@drawable/ic_close"
+        android:title="Close"
+        app:showAsAction="ifRoom"/>
+</menu>
